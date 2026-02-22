@@ -37,6 +37,20 @@ export const CONFIG = {
     mapsUrl: "https://maps.google.com/?q=Hotel+Hilton+Buenos+Aires+Macacha+Guemes+351+CABA"
   },
 
+  // PHOTO GALLERY (optional)
+  gallery: {
+    enabled: true,
+    photos: [
+      "/images/gallery/ef1.jpeg",
+      "/images/gallery/ef2.jpeg",
+      "/images/gallery/ef3.jpeg",
+      "/images/gallery/ef3-1.jpeg",
+      "/images/gallery/ef4.jpeg",
+      "/images/gallery/ef5.jpeg",
+      "/images/gallery/ef6.jpeg"
+    ]
+  },
+
   // MUSIC SUGGESTIONS (optional)
   music: {
     enabled: true,
@@ -92,9 +106,9 @@ export const CONFIG = {
   // IMAGES
   images: {
     // Main logo (leave empty "" if you don't have one)
-    logo: "",
+    logo: "/images/gallery/logo-2.png",
     // Hero background image (optional)
-    heroBackground: "/images/eleyfran.jpeg",
+    heroBackground: "",
     // Favicon
     favicon: ""
   },

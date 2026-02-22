@@ -10,7 +10,7 @@ export default function Hero() {
 
   return (
     <section 
-      className="min-h-[70vh] flex flex-col justify-center items-center text-center px-5 pt-20 pb-12 bg-white relative"
+      className="min-h-[84vh] flex flex-col justify-center items-center text-center px-5 pt-20 pb-12 textured-bg relative"
       id="hero"
       style={heroStyle}
     >
@@ -18,7 +18,7 @@ export default function Hero() {
         {/* Monogram/Logo Area */}
         <div className="mb-8">
           {CONFIG.images.logo ? (
-            <img src={CONFIG.images.logo} alt="Monogram" className="h-48 md:h-64 mx-auto" />
+            <img src={CONFIG.images.logo} alt="Monogram" className="h-[352px] md:h-[422px] mx-auto" />
           ) : (
             <div className="font-heading text-7xl md:text-9xl font-light text-primary tracking-wider">
               {CONFIG.couple.name1.charAt(0)} <span className="text-textLight mx-2">y</span> {CONFIG.couple.name2.charAt(0)}

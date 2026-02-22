@@ -1,4 +1,5 @@
 import { CONFIG } from '../../config'
+import PhotoCarousel from './PhotoCarousel'
 
 export default function EventsSection() {
   return (
@@ -84,6 +85,9 @@ export default function EventsSection() {
             </a>
           </div>
         </div>
+
+        {/* Photo Gallery Carousel */}
+        <PhotoCarousel />
 
         {/* Music Suggestions */}
         {CONFIG.music?.enabled && (

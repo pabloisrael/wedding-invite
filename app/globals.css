@@ -29,6 +29,86 @@
     animation: fadeIn 0.3s ease-in;
   }
 
+  .textured-bg {
+    background-color: white;
+    background-image: url('/images/gallery/sand-2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .photo-carousel-container {
+    position: relative;
+  }
+
+  .photo-swiper {
+    padding: 0 60px;
+  }
+
+  .swiper-button-prev-custom,
+  .swiper-button-next-custom {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 44px;
+    height: 44px;
+    background: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    transition: all 0.3s ease;
+  }
+
+  .swiper-button-prev-custom:hover,
+  .swiper-button-next-custom:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+  .swiper-button-prev-custom {
+    left: 10px;
+  }
+
+  .swiper-button-next-custom {
+    right: 10px;
+  }
+
+  .swiper-button-prev-custom svg,
+  .swiper-button-next-custom svg {
+    width: 20px;
+    height: 20px;
+    fill: #8b7355;
+  }
+
+  .swiper-slide-inner {
+    margin: 0;
+    padding: 0;
+  }
+
+  @media (max-width: 768px) {
+    .photo-swiper {
+      padding: 0 50px;
+    }
+
+    .swiper-button-prev-custom,
+    .swiper-button-next-custom {
+      width: 36px;
+      height: 36px;
+    }
+
+    .swiper-button-prev-custom svg,
+    .swiper-button-next-custom svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
   @keyframes scroll {
     0% {
       opacity: 1;

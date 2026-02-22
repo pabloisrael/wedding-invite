@@ -38,7 +38,7 @@ export default function Countdown() {
   }, [])
 
   return (
-    <section className="py-16 md:py-20 text-center bg-gradient-to-r from-secondary to-primary text-white">
+    <section className="pt-8 pb-16 md:pt-10 md:pb-20 text-center bg-gradient-to-r from-secondary to-primary text-white">
       <div className="container mx-auto px-5 max-w-7xl">
         {/* Date */}
         <div className="mb-12">
