@@ -62,7 +62,7 @@ export const CONFIG = {
 
   // USEFUL INFORMATION
   dressCode: {
-    title: "¡A PONERSE LINDOS!",
+    title: "DRESS CODE",
     description: "El dress code de nuestra boda es **elegante**.\n\nNo olvides estar cómodo. Evitar blanco y tonos similares."
   },
 
