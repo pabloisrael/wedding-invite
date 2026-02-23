@@ -27,7 +27,7 @@ export default function Hero() {
         </div>
         
         {/* Main Message */}
-        <h1 className="font-heading text-3xl md:text-4xl font-normal text-text tracking-[0.2em] uppercase mb-8">
+        <h1 className="font-heading text-3xl md:text-4xl font-normal text-secondary tracking-[0.2em] uppercase mb-8">
           {CONFIG.heroMessage}
         </h1>
       </div>

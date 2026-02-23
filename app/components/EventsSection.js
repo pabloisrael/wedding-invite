@@ -18,11 +18,11 @@ export default function EventsSection() {
               </svg>
             </div>
             
-            <h3 className="text-xs tracking-[0.3em] text-textLight mb-4 uppercase font-light">
-              Ceremonia
+            <h3 className="text-xs tracking-[0.4em] text-secondary mb-4 uppercase font-semibold">
+              CEREMONIA
             </h3>
             
-            <h4 className="font-heading text-2xl md:text-3xl font-normal text-text mb-6 leading-tight italic">
+            <h4 className="font-heading text-2xl md:text-3xl font-normal text-secondary mb-6 leading-tight italic">
               {CONFIG.ceremony.name}
             </h4>
             
@@ -38,7 +38,7 @@ export default function EventsSection() {
             
             <a 
               href={CONFIG.ceremony.mapsUrl} 
-              className="inline-block py-3 px-8 rounded-full text-xs font-medium tracking-wider uppercase transition-all duration-300 bg-secondary text-white border-2 border-secondary hover:bg-transparent hover:text-secondary hover:-translate-y-0.5" 
+              className="inline-block py-3 px-8 rounded-full text-xs font-semibold tracking-wider uppercase transition-all duration-300 bg-secondary text-white border-2 border-secondary hover:bg-white hover:text-secondary hover:-translate-y-0.5" 
               target="_blank" 
               rel="noopener noreferrer"
             >
@@ -57,11 +57,11 @@ export default function EventsSection() {
               </svg>
             </div>
             
-            <h3 className="text-xs tracking-[0.3em] text-textLight mb-4 uppercase font-light">
-              Fiesta
+            <h3 className="text-xs tracking-[0.4em] text-secondary mb-4 uppercase font-semibold">
+              FIESTA
             </h3>
             
-            <h4 className="font-heading text-2xl md:text-3xl font-normal text-text mb-6 leading-tight italic">
+            <h4 className="font-heading text-2xl md:text-3xl font-normal text-secondary mb-6 leading-tight italic">
               {CONFIG.reception.name}
             </h4>
             
@@ -77,7 +77,7 @@ export default function EventsSection() {
             
             <a 
               href={CONFIG.reception.mapsUrl} 
-              className="inline-block py-3 px-8 rounded-full text-xs font-medium tracking-wider uppercase transition-all duration-300 bg-secondary text-white border-2 border-secondary hover:bg-transparent hover:text-secondary hover:-translate-y-0.5" 
+              className="inline-block py-3 px-8 rounded-full text-xs font-semibold tracking-wider uppercase transition-all duration-300 bg-secondary text-white border-2 border-secondary hover:bg-white hover:text-secondary hover:-translate-y-0.5" 
               target="_blank" 
               rel="noopener noreferrer"
             >
@@ -92,7 +92,7 @@ export default function EventsSection() {
         {/* Music Suggestions */}
         {CONFIG.music?.enabled && (
           <div className="text-center max-w-3xl mx-auto pt-8 border-t border-gray-300" id="music">
-            <h2 className="font-heading text-3xl md:text-4xl font-normal text-primary mb-4 leading-tight">
+            <h2 className="font-heading text-3xl md:text-4xl font-normal text-secondary mb-4 leading-tight">
               {CONFIG.music.title}
             </h2>
             <p className="text-base md:text-lg text-textLight mb-8">
@@ -100,7 +100,7 @@ export default function EventsSection() {
             </p>
             <a 
               href={CONFIG.music.formUrl} 
-              className="inline-block py-3 px-8 rounded-full text-xs font-semibold tracking-widest uppercase transition-all duration-300 bg-primary text-white border-2 border-primary hover:bg-transparent hover:text-primary hover:-translate-y-0.5 hover:shadow-lg hover:shadow-primary/30" 
+              className="inline-block py-3 px-8 rounded-full text-xs font-semibold tracking-widest uppercase transition-all duration-300 bg-secondary text-white border-2 border-secondary hover:bg-white hover:text-secondary hover:-translate-y-0.5" 
               target="_blank" 
               rel="noopener noreferrer"
             >

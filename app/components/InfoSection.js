@@ -17,9 +17,9 @@ export default function InfoSection() {
   }
 
   return (
-    <section className="py-20 pb-32 bg-gradient-to-br from-secondary to-primary text-white relative" id="info">
+    <section className="py-20 pb-32 bg-secondary text-white relative" id="info">
       <div className="container mx-auto px-5 max-w-4xl">
-        <h2 className="font-heading text-2xl md:text-3xl font-light text-center mb-12 italic">
+        <h2 className="font-heading text-3xl md:text-4xl font-light text-center mb-12 italic">
           Te contamos todos los detalles…
         </h2>
 
@@ -30,7 +30,7 @@ export default function InfoSection() {
               onClick={() => toggleSection('dressCode')}
               className="w-full py-6 px-4 flex justify-between items-center text-left hover:bg-white/5 transition-colors"
             >
-              <span className="text-xs md:text-sm tracking-[0.15em] uppercase font-light">
+              <span className="text-xs md:text-sm tracking-[0.2em] uppercase font-semibold">
                 {CONFIG.dressCode.title}
               </span>
               <span className="text-2xl transform transition-transform duration-300" style={{
@@ -55,7 +55,7 @@ export default function InfoSection() {
               onClick={() => toggleSection('children')}
               className="w-full py-6 px-4 flex justify-between items-center text-left hover:bg-white/5 transition-colors"
             >
-              <span className="text-xs md:text-sm tracking-[0.15em] uppercase font-light">
+              <span className="text-xs md:text-sm tracking-[0.2em] uppercase font-semibold">
                 {CONFIG.children.title}
               </span>
               <span className="text-2xl transform transition-transform duration-300" style={{
@@ -80,7 +80,7 @@ export default function InfoSection() {
               onClick={() => toggleSection('gift')}
               className="w-full py-6 px-4 flex justify-between items-center text-left hover:bg-white/5 transition-colors"
             >
-              <span className="text-xs md:text-sm tracking-[0.15em] uppercase font-light">
+              <span className="text-xs md:text-sm tracking-[0.2em] uppercase font-semibold">
                 {CONFIG.gift.title}
               </span>
               <span className="text-2xl transform transition-transform duration-300" style={{

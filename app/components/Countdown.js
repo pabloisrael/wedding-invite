@@ -38,20 +38,20 @@ export default function Countdown() {
   }, [])
 
   return (
-    <section className="pt-8 pb-16 md:pt-10 md:pb-20 text-center bg-gradient-to-r from-secondary to-primary text-white">
+    <section className="pt-8 pb-16 md:pt-10 md:pb-20 text-center bg-secondary text-white">
       <div className="container mx-auto px-5 max-w-7xl">
         {/* Date */}
         <div className="mb-12">
-          <div className="text-base md:text-xl tracking-[0.3em] mb-4 uppercase font-semibold">
+          <div className="text-lg md:text-2xl tracking-[0.3em] mb-6 uppercase font-semibold">
             {CONFIG.date.day} DE {CONFIG.date.month} DE {CONFIG.date.year}
           </div>
-          <p className="font-heading text-xl md:text-3xl font-light italic leading-relaxed">
+          <p className="font-heading text-2xl md:text-4xl font-light italic leading-relaxed">
             {CONFIG.subtitle}
           </p>
         </div>
 
         {/* Countdown */}
-        <h2 className="text-sm md:text-base tracking-[0.5em] mb-10 font-light">
+        <h2 className="text-sm md:text-base tracking-[0.5em] mb-10 font-light uppercase">
           FALTAN…
         </h2>
         <div className="flex justify-center gap-8 md:gap-12 flex-wrap">

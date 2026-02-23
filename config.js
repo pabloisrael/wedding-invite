@@ -41,8 +41,8 @@ export const CONFIG = {
   gallery: {
     enabled: true,
     photos: [
-      "/images/gallery/ef1.jpeg",
       "/images/gallery/ef2.jpeg",
+      "/images/gallery/ef1.jpeg",
       "/images/gallery/ef3.jpeg",
       "/images/gallery/ef3-1.jpeg",
       "/images/gallery/ef4.jpeg",
@@ -116,7 +116,7 @@ export const CONFIG = {
   // COLORS (customize your theme colors)
   colors: {
     primary: "#d4a574", // gold/beige
-    secondary: "#8b7355",
+    secondary: "#1e3a5f", // dark blue
     background: "#faf8f5",
     text: "#333333",
     textLight: "#666666"
