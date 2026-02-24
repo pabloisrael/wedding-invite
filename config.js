@@ -10,6 +10,7 @@ export const CONFIG = {
   date: {
     day: "11",
     month: "ABRIL",
+    monthShort: "ABR",
     year: "2026",
     // Format: YYYY-MM-DD HH:MM:SS
     fullDate: "2026-04-11 20:00:00"

@@ -40,11 +40,7 @@ export default function Countdown() {
   return (
     <section className="pt-8 pb-16 md:pt-10 md:pb-20 text-center bg-secondary text-white">
       <div className="container mx-auto px-5 max-w-7xl">
-        {/* Date */}
         <div className="mb-10 md:mb-12">
-          <div className="text-base md:text-2xl tracking-[0.3em] mb-4 md:mb-6 uppercase font-semibold">
-            {CONFIG.date.day} DE {CONFIG.date.month} DE {CONFIG.date.year}
-          </div>
           <p className="font-heading text-xl md:text-4xl font-light leading-relaxed px-4">
             {CONFIG.subtitle}
           </p>
