@@ -14,21 +14,21 @@ export default function EventsSection() {
               <img src="/images/gallery/rings.jpeg" alt="Rings" className="w-16 h-16 md:w-20 md:h-20 object-contain" />
             </div>
             
-            <h3 className="text-xs tracking-[0.4em] text-secondary mb-4 uppercase font-semibold">
+            <h3 className="text-xs tracking-[0.4em] text-secondary mb-2 uppercase font-semibold">
               CEREMONIA
             </h3>
             
-            <h4 className="font-heading text-xl md:text-3xl font-normal text-secondary mb-4 md:mb-6 leading-tight italic">
+            <h4 className="font-heading text-xl md:text-3xl font-normal text-secondary mb-2 leading-tight">
               {CONFIG.ceremony.name}
             </h4>
             
-            <p className="text-sm text-textLight mb-1">
+            <p className="text-sm text-textLight mb-0.5 leading-tight">
               {CONFIG.ceremony.address}
             </p>
-            <p className="text-sm text-textLight mb-1">
+            <p className="text-sm text-textLight mb-0.5 leading-tight">
               {CONFIG.ceremony.city}
             </p>
-            <p className="text-base text-text font-medium mt-4 mb-6">
+            <p className="text-base text-text font-medium mt-2 mb-6 leading-tight">
               {CONFIG.ceremony.time}
             </p>
             
@@ -49,21 +49,21 @@ export default function EventsSection() {
               <img src="/images/gallery/glasses.jpeg" alt="Glasses" className="w-16 h-16 md:w-20 md:h-20 object-contain" />
             </div>
             
-            <h3 className="text-xs tracking-[0.4em] text-secondary mb-4 uppercase font-semibold">
+            <h3 className="text-xs tracking-[0.4em] text-secondary mb-2 uppercase font-semibold">
               FIESTA
             </h3>
             
-            <h4 className="font-heading text-xl md:text-3xl font-normal text-secondary mb-4 md:mb-6 leading-tight italic">
+            <h4 className="font-heading text-xl md:text-3xl font-normal text-secondary mb-2 leading-tight">
               {CONFIG.reception.name}
             </h4>
             
-            <p className="text-sm text-textLight mb-1">
+            <p className="text-sm text-textLight mb-0.5 leading-tight">
               {CONFIG.reception.address}
             </p>
-            <p className="text-sm text-textLight mb-1">
+            <p className="text-sm text-textLight mb-0.5 leading-tight">
               {CONFIG.reception.city}
             </p>
-            <p className="text-base text-text font-medium mt-4 mb-6">
+            <p className="text-base text-text font-medium mt-2 mb-6 leading-tight">
               {CONFIG.reception.time}
             </p>
             
@@ -84,6 +84,9 @@ export default function EventsSection() {
         {/* Music Suggestions */}
         {CONFIG.music?.enabled && (
           <div className="text-center max-w-3xl mx-auto pt-8 border-t border-gray-300" id="music">
+            <div className="flex justify-center">
+              <img src="/images/gallery/icono-canciones.svg" alt="" className="w-[84px] h-[84px] md:w-24 md:h-24" />
+            </div>
             <h2 className="font-heading text-2xl md:text-4xl font-normal text-secondary mb-4 leading-tight">
               {CONFIG.music.title}
             </h2>

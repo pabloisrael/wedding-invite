@@ -19,7 +19,7 @@ export default function InfoSection() {
   return (
     <section className="py-20 pb-32 bg-secondary text-white relative" id="info">
       <div className="container mx-auto px-5 max-w-4xl">
-        <h2 className="font-heading text-2xl md:text-4xl font-light text-center mb-8 md:mb-12 italic px-4">
+        <h2 className="font-heading text-2xl md:text-4xl font-light text-center mb-8 md:mb-12 px-4">
           Te contamos todos los detalles…
         </h2>
 
@@ -98,7 +98,7 @@ export default function InfoSection() {
                 
                 {/* Primera cuenta */}
                 <div className="textured-card p-5 rounded-lg mb-4 text-left text-text">
-                  <p className="text-xs font-semibold mb-3 italic tracking-wider text-white">
+                  <p className="text-xs font-semibold mb-3 tracking-wider text-white">
                     CUENTA EN {CONFIG.gift.account1.currency}:
                   </p>
                   <p className="mb-2 text-sm">
@@ -121,7 +121,7 @@ export default function InfoSection() {
                 {/* Segunda cuenta (si está habilitada) */}
                 {CONFIG.gift.account2?.enabled && (
                   <div className="textured-card p-5 rounded-lg text-left text-text">
-                    <p className="text-xs font-semibold mb-3 italic tracking-wider text-white">
+                    <p className="text-xs font-semibold mb-3 tracking-wider text-white">
                       CUENTA EN {CONFIG.gift.account2.currency}:
                     </p>
                     <p className="mb-2 text-sm">

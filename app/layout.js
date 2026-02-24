@@ -1,17 +1,15 @@
-import { Cormorant_Garamond, Montserrat } from 'next/font/google'
+import localFont from 'next/font/local'
 import './globals.css'
 import { CONFIG } from '../config'
 
-const cormorant = Cormorant_Garamond({
-  weight: ['300', '400', '500', '600', '700'],
-  subsets: ['latin'],
-  variable: '--font-heading',
-})
-
-const montserrat = Montserrat({
-  weight: ['300', '400', '500', '600'],
-  subsets: ['latin'],
-  variable: '--font-body',
+const satoshi = localFont({
+  src: [
+    { path: './fonts/Satoshi-Light.otf', weight: '300', style: 'normal' },
+    { path: './fonts/Satoshi-Regular.otf', weight: '400', style: 'normal' },
+    { path: './fonts/Satoshi-Medium.otf', weight: '500', style: 'normal' },
+    { path: './fonts/Satoshi-Bold.otf', weight: '700', style: 'normal' },
+  ],
+  variable: '--font-satoshi',
 })
 
 export const metadata = {
@@ -22,7 +20,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body className={`${cormorant.variable} ${montserrat.variable}`}>
+      <body className={satoshi.variable}>
         {children}
       </body>
     </html>

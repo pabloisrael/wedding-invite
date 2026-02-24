@@ -45,7 +45,7 @@ export default function Countdown() {
           <div className="text-base md:text-2xl tracking-[0.3em] mb-4 md:mb-6 uppercase font-semibold">
             {CONFIG.date.day} DE {CONFIG.date.month} DE {CONFIG.date.year}
           </div>
-          <p className="font-heading text-xl md:text-4xl font-light italic leading-relaxed px-4">
+          <p className="font-heading text-xl md:text-4xl font-light leading-relaxed px-4">
             {CONFIG.subtitle}
           </p>
         </div>

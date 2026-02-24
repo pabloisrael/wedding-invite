@@ -21,7 +21,7 @@ export const CONFIG = {
 
   // CEREMONY
   ceremony: {
-    name: "La Rural",
+    name: "LA RURAL",
     address: "Av. Sarmiento 2704",
     city: "CABA",
     time: "18:00 HS",
@@ -30,7 +30,7 @@ export const CONFIG = {
 
   // RECEPTION
   reception: {
-    name: "La Rural",
+    name: "LA RURAL",
     address: "Av. Sarmiento 2704",
     city: "CABA",
     time: "20:00 HS",

@@ -13,7 +13,7 @@ export default function RSVP() {
           {CONFIG.rsvp.title}
         </h2>
         <div className="max-w-2xl mx-auto px-4">
-          <h3 className="font-heading text-xl md:text-3xl font-normal mb-4 md:mb-6 leading-snug text-secondary italic">
+          <h3 className="font-heading text-xl md:text-3xl font-normal mb-4 md:mb-6 leading-snug text-secondary">
             {CONFIG.rsvp.subtitle}
           </h3>
           <p className="text-base md:text-lg leading-relaxed mb-8 whitespace-pre-line text-text">
@@ -28,7 +28,7 @@ export default function RSVP() {
             {CONFIG.rsvp.buttonText}
           </a>
         </div>
-        <p className="font-heading text-2xl md:text-4xl mt-8 md:mt-12 font-normal text-secondary italic">
+        <p className="font-heading text-2xl md:text-4xl mt-8 md:mt-12 font-normal text-secondary">
           ¡A celebrar!
         </p>
       </div>
