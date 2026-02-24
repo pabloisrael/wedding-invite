@@ -2,7 +2,7 @@ import { CONFIG } from '../../config'
 
 export default function RSVP() {
   return (
-    <section className="py-20 text-center bg-background" id="rsvp">
+    <section className="py-20 text-center textured-bg" id="rsvp">
       <div className="container mx-auto px-5 max-w-7xl">
         {/* Confirmation GIF */}
         <div className="flex justify-center mb-6 md:mb-8">

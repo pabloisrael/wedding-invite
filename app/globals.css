@@ -4,7 +4,7 @@
 
 :root {
   --color-primary: #d4a574;
-  --color-secondary: #1e3a5f;
+  --color-secondary: #96C4AD;
   --color-background: #faf8f5;
   --color-text: #333333;
   --color-text-light: #666666;
@@ -16,7 +16,7 @@
   }
 
   body {
-    @apply font-body text-text bg-background overflow-x-hidden;
+    @apply font-body text-text overflow-x-hidden textured-bg;
   }
 }
 
@@ -31,6 +31,14 @@
 
   .textured-bg {
     background-color: #f8f8f8;
+    background-image: url('/images/texture-bg.png');
+    background-size: auto;
+    background-position: top left;
+    background-repeat: repeat;
+  }
+
+  .textured-card {
+    background-color: #faf8f5;
     background-image: url('/images/texture-bg.png');
     background-size: auto;
     background-position: top left;

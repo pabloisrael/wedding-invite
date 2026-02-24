@@ -3,7 +3,7 @@ import PhotoCarousel from './PhotoCarousel'
 
 export default function EventsSection() {
   return (
-    <section className="py-16 md:py-20 bg-background" id="ceremony">
+    <section className="py-16 md:py-20 textured-bg" id="ceremony">
       <div className="container mx-auto px-5 max-w-6xl">
         {/* Ceremony and Reception */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-0 md:divide-x divide-gray-300 mb-16">
@@ -11,11 +11,7 @@ export default function EventsSection() {
           <div className="text-center px-4 md:px-12">
             {/* Icon */}
             <div className="flex justify-center mb-6">
-              <svg className="w-16 h-16 md:w-20 md:h-20 text-secondary opacity-80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <circle cx="9" cy="9" r="3" strokeWidth="1.5" />
-                <circle cx="15" cy="9" r="3" strokeWidth="1.5" />
-                <path d="M9 12v5M15 12v5M9 17h6" strokeWidth="1.5" strokeLinecap="round" />
-              </svg>
+              <img src="/images/gallery/rings.jpeg" alt="Rings" className="w-16 h-16 md:w-20 md:h-20 object-contain" />
             </div>
             
             <h3 className="text-xs tracking-[0.4em] text-secondary mb-4 uppercase font-semibold">
@@ -50,11 +46,7 @@ export default function EventsSection() {
           <div className="text-center px-4 md:px-12" id="reception">
             {/* Icon */}
             <div className="flex justify-center mb-6">
-              <svg className="w-16 h-16 md:w-20 md:h-20 text-secondary opacity-80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path d="M6 18V8l3-3 3 3v10" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                <path d="M15 18V8l3-3 3 3v10" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                <path d="M6 12h12" strokeWidth="1.5" strokeLinecap="round" />
-              </svg>
+              <img src="/images/gallery/glasses.jpeg" alt="Glasses" className="w-16 h-16 md:w-20 md:h-20 object-contain" />
             </div>
             
             <h3 className="text-xs tracking-[0.4em] text-secondary mb-4 uppercase font-semibold">

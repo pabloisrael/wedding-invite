@@ -22,19 +22,19 @@ export const CONFIG = {
   // CEREMONY
   ceremony: {
     name: "La Rural",
-    address: "Av Santa Fe 1111",
+    address: "Av. Sarmiento 2704",
     city: "CABA",
-    time: "20:00 HS",
-    mapsUrl: "https://maps.google.com/?q=Basílica+del+Santísimo+Sacramento+San+Martín+1035+CABA"
+    time: "18:00 HS",
+    mapsUrl: "https://maps.app.goo.gl/4Restihi7kzE2M1y5"
   },
 
   // RECEPTION
   reception: {
     name: "La Rural",
-    address: "Av Santa Fe 1111",
+    address: "Av. Sarmiento 2704",
     city: "CABA",
-    time: "21:00 HS",
-    mapsUrl: "https://maps.google.com/?q=Hotel+Hilton+Buenos+Aires+Macacha+Guemes+351+CABA"
+    time: "20:00 HS",
+    mapsUrl: "https://maps.app.goo.gl/4Restihi7kzE2M1y5"
   },
 
   // PHOTO GALLERY (optional)
@@ -97,7 +97,7 @@ export const CONFIG = {
   rsvp: {
     title: "CONFIRMACIÓN DE ASISTENCIA",
     subtitle: "¡En el día más feliz de nuestra vida, no podés faltar!",
-    description: "Te pedimos que confirmes tu asistencia antes del 20/06/2025.\n\nSi fuiste invitado con un acompañante, completar un formulario por persona.",
+    description: "Te pedimos que confirmes tu asistencia antes del 11/03/2026.\n\nSi fuiste invitado con un acompañante, completar un formulario por persona.",
     buttonText: "CONFIRMAR MI ASISTENCIA",
     // Google Forms URL or similar
     formUrl: "https://forms.gle/tu-formulario-aqui"
@@ -116,7 +116,7 @@ export const CONFIG = {
   // COLORS (customize your theme colors)
   colors: {
     primary: "#d4a574", // gold/beige
-    secondary: "#1e3a5f", // dark blue
+    secondary: "#96C4AD", // sage green
     background: "#faf8f5",
     text: "#333333",
     textLight: "#666666"

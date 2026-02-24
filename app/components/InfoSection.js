@@ -97,7 +97,7 @@ export default function InfoSection() {
                 />
                 
                 {/* Primera cuenta */}
-                <div className="bg-background/95 p-5 rounded-lg mb-4 text-left text-text">
+                <div className="textured-card p-5 rounded-lg mb-4 text-left text-text">
                   <p className="text-xs font-semibold mb-3 italic tracking-wider text-white">
                     CUENTA EN {CONFIG.gift.account1.currency}:
                   </p>
@@ -120,7 +120,7 @@ export default function InfoSection() {
 
                 {/* Segunda cuenta (si está habilitada) */}
                 {CONFIG.gift.account2?.enabled && (
-                  <div className="bg-background/95 p-5 rounded-lg text-left text-text">
+                  <div className="textured-card p-5 rounded-lg text-left text-text">
                     <p className="text-xs font-semibold mb-3 italic tracking-wider text-white">
                       CUENTA EN {CONFIG.gift.account2.currency}:
                     </p>
@@ -148,9 +148,14 @@ export default function InfoSection() {
       </div>
 
       {/* Decorative Wave */}
-      <div className="absolute bottom-0 left-0 right-0">
+      <div className="absolute bottom-0 left-0 right-0 pointer-events-none">
         <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full">
-          <path d="M0 0C240 80 480 80 720 40C960 0 1200 0 1440 40V80H0V0Z" fill="#faf8f5"/>
+          <defs>
+            <pattern id="wave-texture" patternUnits="userSpaceOnUse" width="200" height="200">
+              <image href="/images/texture-bg.png" x="0" y="0" width="200" height="200" />
+            </pattern>
+          </defs>
+          <path d="M0 0C240 80 480 80 720 40C960 0 1200 0 1440 40V80H0V0Z" fill="url(#wave-texture)"/>
         </svg>
       </div>
     </section>
