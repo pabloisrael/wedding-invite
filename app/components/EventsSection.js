@@ -14,7 +14,7 @@ export default function EventsSection() {
               <img src="/images/gallery/rings.jpeg" alt="Rings" className="w-16 h-16 md:w-20 md:h-20 object-contain" />
             </div>
             
-            <h3 className="text-xs tracking-[0.4em] text-secondary mb-2 uppercase font-semibold">
+            <h3 className="text-xs tracking-[0.4em] text-secondary mb-2 uppercase font-semibold text-center w-full">
               CEREMONIA
             </h3>
             
@@ -49,7 +49,7 @@ export default function EventsSection() {
               <img src="/images/gallery/glasses.jpeg" alt="Glasses" className="w-16 h-16 md:w-20 md:h-20 object-contain" />
             </div>
             
-            <h3 className="text-xs tracking-[0.4em] text-secondary mb-2 uppercase font-semibold">
+            <h3 className="text-xs tracking-[0.4em] text-secondary mb-2 uppercase font-semibold text-center w-full">
               FIESTA
             </h3>
             
