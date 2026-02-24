@@ -151,11 +151,11 @@ export default function InfoSection() {
       <div className="absolute bottom-0 left-0 right-0 pointer-events-none">
         <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full">
           <defs>
-            <pattern id="wave-texture" patternUnits="userSpaceOnUse" width="200" height="200">
-              <image href="/images/texture-bg.png" x="0" y="0" width="200" height="200" />
+            <pattern id="info-wave-texture" patternUnits="userSpaceOnUse" width="200" height="200">
+              <image href="/images/texture-bg.png" x="0" y="0" width="200" height="200" preserveAspectRatio="xMidYMid slice" />
             </pattern>
           </defs>
-          <path d="M0 0C240 80 480 80 720 40C960 0 1200 0 1440 40V80H0V0Z" fill="url(#wave-texture)"/>
+          <path d="M0 0C240 80 480 80 720 40C960 0 1200 0 1440 40V80H0V0Z" fill="url(#info-wave-texture)"/>
         </svg>
       </div>
     </section>
