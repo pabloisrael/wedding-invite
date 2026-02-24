@@ -14,7 +14,7 @@ export default function Hero() {
       id="hero"
       style={heroStyle}
     >
-      <div className="z-10 max-w-3xl">
+      <div className="z-10 max-w-3xl relative">
         {/* Monogram/Logo Area */}
         <div>
           {CONFIG.images.logo ? (
@@ -24,6 +24,11 @@ export default function Hero() {
               {CONFIG.couple.name1.charAt(0)} <span className="text-textLight mx-2">y</span> {CONFIG.couple.name2.charAt(0)}
             </div>
           )}
+        </div>
+
+        {/* Hearts GIF - Overlaid */}
+        <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 -translate-x-2 z-20">
+          <img src="/images/gallery/hearts.gif" alt="Hearts" className="h-[60px] md:h-20" />
         </div>
       </div>
     </section>
