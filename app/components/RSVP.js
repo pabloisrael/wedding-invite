@@ -4,11 +4,16 @@ export default function RSVP() {
   return (
     <section className="py-20 text-center bg-background" id="rsvp">
       <div className="container mx-auto px-5 max-w-7xl">
-        <h2 className="font-heading text-3xl md:text-4xl font-normal mb-8 tracking-wide uppercase text-secondary">
+        {/* Confirmation GIF */}
+        <div className="flex justify-center mb-6 md:mb-8">
+          <img src="/images/gallery/confirmation.gif" alt="Confirmación" className="h-20 md:h-24" />
+        </div>
+
+        <h2 className="font-heading text-2xl md:text-4xl font-normal mb-6 md:mb-8 tracking-wide uppercase text-secondary px-4">
           {CONFIG.rsvp.title}
         </h2>
-        <div className="max-w-2xl mx-auto">
-          <h3 className="font-heading text-2xl md:text-3xl font-normal mb-6 leading-snug text-secondary">
+        <div className="max-w-2xl mx-auto px-4">
+          <h3 className="font-heading text-xl md:text-3xl font-normal mb-4 md:mb-6 leading-snug text-secondary italic">
             {CONFIG.rsvp.subtitle}
           </h3>
           <p className="text-base md:text-lg leading-relaxed mb-8 whitespace-pre-line text-text">
@@ -23,7 +28,7 @@ export default function RSVP() {
             {CONFIG.rsvp.buttonText}
           </a>
         </div>
-        <p className="font-heading text-3xl md:text-4xl mt-12 font-normal text-secondary italic">
+        <p className="font-heading text-2xl md:text-4xl mt-8 md:mt-12 font-normal text-secondary italic">
           ¡A celebrar!
         </p>
       </div>

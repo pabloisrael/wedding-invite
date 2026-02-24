@@ -19,7 +19,7 @@ export default function InfoSection() {
   return (
     <section className="py-20 pb-32 bg-secondary text-white relative" id="info">
       <div className="container mx-auto px-5 max-w-4xl">
-        <h2 className="font-heading text-3xl md:text-4xl font-light text-center mb-12 italic">
+        <h2 className="font-heading text-2xl md:text-4xl font-light text-center mb-8 md:mb-12 italic px-4">
           Te contamos todos los detalles…
         </h2>
 

@@ -41,49 +41,49 @@ export default function Countdown() {
     <section className="pt-8 pb-16 md:pt-10 md:pb-20 text-center bg-secondary text-white">
       <div className="container mx-auto px-5 max-w-7xl">
         {/* Date */}
-        <div className="mb-12">
-          <div className="text-lg md:text-2xl tracking-[0.3em] mb-6 uppercase font-semibold">
+        <div className="mb-10 md:mb-12">
+          <div className="text-base md:text-2xl tracking-[0.3em] mb-4 md:mb-6 uppercase font-semibold">
             {CONFIG.date.day} DE {CONFIG.date.month} DE {CONFIG.date.year}
           </div>
-          <p className="font-heading text-2xl md:text-4xl font-light italic leading-relaxed">
+          <p className="font-heading text-xl md:text-4xl font-light italic leading-relaxed px-4">
             {CONFIG.subtitle}
           </p>
         </div>
 
         {/* Countdown */}
-        <h2 className="text-sm md:text-base tracking-[0.5em] mb-10 font-light uppercase">
+        <h2 className="text-sm md:text-base tracking-[0.5em] mb-8 md:mb-10 font-light uppercase">
           FALTAN…
         </h2>
-        <div className="flex justify-center gap-8 md:gap-12 flex-wrap">
-          <div className="min-w-[80px]">
-            <div className="font-heading text-5xl md:text-6xl font-light leading-none mb-2">
+        <div className="flex justify-center gap-4 md:gap-12 flex-wrap">
+          <div className="min-w-[65px] md:min-w-[80px]">
+            <div className="font-heading text-4xl md:text-6xl font-light leading-none mb-2">
               {timeLeft.days}
             </div>
-            <div className="text-xs md:text-sm tracking-wider uppercase">
+            <div className="text-[10px] md:text-sm tracking-wider uppercase">
               Días
             </div>
           </div>
-          <div className="min-w-[80px]">
-            <div className="font-heading text-5xl md:text-6xl font-light leading-none mb-2">
+          <div className="min-w-[65px] md:min-w-[80px]">
+            <div className="font-heading text-4xl md:text-6xl font-light leading-none mb-2">
               {timeLeft.hours}
             </div>
-            <div className="text-xs md:text-sm tracking-wider uppercase">
+            <div className="text-[10px] md:text-sm tracking-wider uppercase">
               Horas
             </div>
           </div>
-          <div className="min-w-[80px]">
-            <div className="font-heading text-5xl md:text-6xl font-light leading-none mb-2">
+          <div className="min-w-[65px] md:min-w-[80px]">
+            <div className="font-heading text-4xl md:text-6xl font-light leading-none mb-2">
               {timeLeft.minutes}
             </div>
-            <div className="text-xs md:text-sm tracking-wider uppercase">
+            <div className="text-[10px] md:text-sm tracking-wider uppercase">
               Minutos
             </div>
           </div>
-          <div className="min-w-[80px]">
-            <div className="font-heading text-5xl md:text-6xl font-light leading-none mb-2">
+          <div className="min-w-[65px] md:min-w-[80px]">
+            <div className="font-heading text-4xl md:text-6xl font-light leading-none mb-2">
               {timeLeft.seconds}
             </div>
-            <div className="text-xs md:text-sm tracking-wider uppercase">
+            <div className="text-[10px] md:text-sm tracking-wider uppercase">
               Segundos
             </div>
           </div>

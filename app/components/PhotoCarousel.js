@@ -43,7 +43,7 @@ export default function PhotoCarousel() {
               <img
                 src={photo}
                 alt={`Foto ${index + 1}`}
-                className="swiper-slide-image w-full h-[520px] object-cover rounded-[40px]"
+                className="swiper-slide-image w-full h-[380px] sm:h-[440px] md:h-[520px] object-cover rounded-[40px]"
               />
             </figure>
           </SwiperSlide>

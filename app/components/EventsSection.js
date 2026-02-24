@@ -22,7 +22,7 @@ export default function EventsSection() {
               CEREMONIA
             </h3>
             
-            <h4 className="font-heading text-2xl md:text-3xl font-normal text-secondary mb-6 leading-tight italic">
+            <h4 className="font-heading text-xl md:text-3xl font-normal text-secondary mb-4 md:mb-6 leading-tight italic">
               {CONFIG.ceremony.name}
             </h4>
             
@@ -61,7 +61,7 @@ export default function EventsSection() {
               FIESTA
             </h3>
             
-            <h4 className="font-heading text-2xl md:text-3xl font-normal text-secondary mb-6 leading-tight italic">
+            <h4 className="font-heading text-xl md:text-3xl font-normal text-secondary mb-4 md:mb-6 leading-tight italic">
               {CONFIG.reception.name}
             </h4>
             
@@ -92,7 +92,7 @@ export default function EventsSection() {
         {/* Music Suggestions */}
         {CONFIG.music?.enabled && (
           <div className="text-center max-w-3xl mx-auto pt-8 border-t border-gray-300" id="music">
-            <h2 className="font-heading text-3xl md:text-4xl font-normal text-secondary mb-4 leading-tight">
+            <h2 className="font-heading text-2xl md:text-4xl font-normal text-secondary mb-4 leading-tight">
               {CONFIG.music.title}
             </h2>
             <p className="text-base md:text-lg text-textLight mb-8">
