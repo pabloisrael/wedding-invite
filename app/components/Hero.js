@@ -16,20 +16,15 @@ export default function Hero() {
     >
       <div className="z-10 max-w-3xl">
         {/* Monogram/Logo Area */}
-        <div className="mb-8">
+        <div>
           {CONFIG.images.logo ? (
-            <img src={CONFIG.images.logo} alt="Monogram" className="h-[352px] md:h-[422px] mx-auto" />
+            <img src={CONFIG.images.logo} alt="Monogram" className="h-[500px] md:h-[600px] mx-auto" />
           ) : (
             <div className="font-heading text-7xl md:text-9xl font-light text-primary tracking-wider">
               {CONFIG.couple.name1.charAt(0)} <span className="text-textLight mx-2">y</span> {CONFIG.couple.name2.charAt(0)}
             </div>
           )}
         </div>
-        
-        {/* Main Message */}
-        <h1 className="font-heading text-3xl md:text-4xl font-normal text-secondary tracking-[0.2em] uppercase mb-8">
-          {CONFIG.heroMessage}
-        </h1>
       </div>
     </section>
   )

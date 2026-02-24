@@ -30,7 +30,11 @@
   }
 
   .textured-bg {
-    background-color: white;
+    background-color: #f8f8f8;
+    background-image: url('/images/texture-bg.png');
+    background-size: auto;
+    background-position: top left;
+    background-repeat: repeat;
   }
 
   .scrollbar-hide::-webkit-scrollbar {

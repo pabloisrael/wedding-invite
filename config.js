@@ -106,7 +106,7 @@ export const CONFIG = {
   // IMAGES
   images: {
     // Main logo (leave empty "" if you don't have one)
-    logo: "/images/gallery/logo-2.png",
+    logo: "/images/gallery/drawing.png",
     // Hero background image (optional)
     heroBackground: "",
     // Favicon
