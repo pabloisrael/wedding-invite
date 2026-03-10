@@ -18,10 +18,13 @@ export default function EventsSection() {
               CEREMONIA
             </h3>
             
-            <h4 className="font-heading text-xl md:text-3xl font-normal text-secondary mb-2 leading-tight">
+            <h4 className="font-heading text-xl md:text-3xl font-normal text-secondary mb-1 leading-tight">
               {CONFIG.ceremony.name}
             </h4>
-            
+            {CONFIG.ceremony.subtitle && (
+              <p className="text-base text-textLight mb-1 leading-tight">{CONFIG.ceremony.subtitle}</p>
+            )}
+
             <p className="text-sm text-textLight mb-0.5 leading-tight">
               {CONFIG.ceremony.address}
             </p>
@@ -53,10 +56,13 @@ export default function EventsSection() {
               FIESTA
             </h3>
             
-            <h4 className="font-heading text-xl md:text-3xl font-normal text-secondary mb-2 leading-tight">
+            <h4 className="font-heading text-xl md:text-3xl font-normal text-secondary mb-1 leading-tight">
               {CONFIG.reception.name}
             </h4>
-            
+            {CONFIG.reception.subtitle && (
+              <p className="text-base text-textLight mb-1 leading-tight">{CONFIG.reception.subtitle}</p>
+            )}
+
             <p className="text-sm text-textLight mb-0.5 leading-tight">
               {CONFIG.reception.address}
             </p>

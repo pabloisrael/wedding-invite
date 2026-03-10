@@ -98,7 +98,7 @@ export default function InfoSection() {
                 
                 {/* Primera cuenta */}
                 <div className="textured-card p-5 rounded-lg mb-4 text-left text-text">
-                  <p className="text-xs font-semibold mb-3 tracking-wider text-white">
+                  <p className="text-xs font-semibold mb-3 tracking-wider text-text">
                     CUENTA EN {CONFIG.gift.account1.currency}:
                   </p>
                   <p className="mb-2 text-sm">
@@ -121,7 +121,7 @@ export default function InfoSection() {
                 {/* Segunda cuenta (si está habilitada) */}
                 {CONFIG.gift.account2?.enabled && (
                   <div className="textured-card p-5 rounded-lg text-left text-text">
-                    <p className="text-xs font-semibold mb-3 tracking-wider text-white">
+                    <p className="text-xs font-semibold mb-3 tracking-wider text-text">
                       CUENTA EN {CONFIG.gift.account2.currency}:
                     </p>
                     <p className="mb-2 text-sm">

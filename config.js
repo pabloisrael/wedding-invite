@@ -22,20 +22,22 @@ export const CONFIG = {
 
   // CEREMONY
   ceremony: {
-    name: "LA RURAL",
+    name: "SALON EL CENTRAL",
+    subtitle: "La Rural de Buenos Aires",
     address: "Av. Sarmiento 2704",
     city: "CABA",
     time: "18:00 HS",
-    mapsUrl: "https://maps.app.goo.gl/4Restihi7kzE2M1y5"
+    mapsUrl: "https://www.google.com/maps/place/El+Central+-+Bistro+de+campo/@-34.5798009,-58.4219392,16.67z/data=!4m14!1m7!3m6!1s0x95bcb59cd6452553:0x6b521307d135059a!2sLa+Rural!8m2!3d-34.5797805!4d-58.4209327!16s%2Fg%2F1ymyp0my0!3m5!1s0x95bcb5dad5e638b9:0x43f3fde47288149e!8m2!3d-34.5793172!4d-58.4202742!16s%2Fg%2F11sy3jgqvx?entry=ttu&g_ep=EgoyMDI2MDMwOC4wIKXMDSoASAFQAw%3D%3D"
   },
 
   // RECEPTION
   reception: {
-    name: "LA RURAL",
+    name: "SALON EL CENTRAL",
+    subtitle: "La Rural de Buenos Aires",
     address: "Av. Sarmiento 2704",
     city: "CABA",
     time: "20:00 HS",
-    mapsUrl: "https://maps.app.goo.gl/4Restihi7kzE2M1y5"
+    mapsUrl: "https://www.google.com/maps/place/El+Central+-+Bistro+de+campo/@-34.5798009,-58.4219392,16.67z/data=!4m14!1m7!3m6!1s0x95bcb59cd6452553:0x6b521307d135059a!2sLa+Rural!8m2!3d-34.5797805!4d-58.4209327!16s%2Fg%2F1ymyp0my0!3m5!1s0x95bcb5dad5e638b9:0x43f3fde47288149e!8m2!3d-34.5793172!4d-58.4202742!16s%2Fg%2F11sy3jgqvx?entry=ttu&g_ep=EgoyMDI2MDMwOC4wIKXMDSoASAFQAw%3D%3D"
   },
 
   // PHOTO GALLERY (optional)
