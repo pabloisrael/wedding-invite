@@ -1,15 +1,11 @@
-import localFont from 'next/font/local'
+import { Abhaya_Libre } from 'next/font/google'
 import './globals.css'
 import { CONFIG } from '../config'
 
-const satoshi = localFont({
-  src: [
-    { path: './fonts/Satoshi-Light.otf', weight: '300', style: 'normal' },
-    { path: './fonts/Satoshi-Regular.otf', weight: '400', style: 'normal' },
-    { path: './fonts/Satoshi-Medium.otf', weight: '500', style: 'normal' },
-    { path: './fonts/Satoshi-Bold.otf', weight: '700', style: 'normal' },
-  ],
-  variable: '--font-satoshi',
+const abhayaLibre = Abhaya_Libre({
+  weight: ['400', '500', '600', '700', '800'],
+  subsets: ['latin'],
+  variable: '--font-abhaya-libre',
 })
 
 export const metadata = {
@@ -20,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body className={satoshi.variable}>
+      <body className={abhayaLibre.variable}>
         {children}
       </body>
     </html>

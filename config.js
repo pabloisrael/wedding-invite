@@ -54,7 +54,7 @@ export const CONFIG = {
 
   // MUSIC SUGGESTIONS (optional)
   music: {
-    enabled: true,
+    enabled: false,
     title: "¡Que no falte tu tema favorito!",
     description: "Ayudanos a armar la lista de canciones para nuestra fiesta",
     buttonText: "SUGERÍ TU TEMA ACÁ",
@@ -78,19 +78,19 @@ export const CONFIG = {
     // Primera cuenta (pesos)
     account1: {
       currency: "PESOS",
-      accountHolder: "Ele y Fran",
-      accountNumber: "1254875968554455223366",
-      alias: "BODA.ELE.FRAN",
-      bank: "Banco Nación"
+      accountHolder: "Maria Elena Corraro Bianchi",
+      accountNumber: "0070020730004041799807",
+      alias: "Eleyfran2026",
+      bank: "Banco Galicia"
     },
     // Segunda cuenta (opcional - dólares u otra moneda)
     account2: {
-      enabled: true, // Cambiar a true para mostrar segunda cuenta
+      enabled: true,
       currency: "DÓLARES",
-      accountHolder: "Ele y Fran",
-      accountNumber: "9876543210123456789012",
-      alias: "BDDA.USD",
-      bank: "Banco Nación"
+      accountHolder: "Maria Elena Corraro Bianchi",
+      accountNumber: "0070020731004009864753",
+      alias: "Casamientoeleyfran",
+      bank: "Banco Galicia"
     }
   },
 
@@ -98,10 +98,10 @@ export const CONFIG = {
   rsvp: {
     title: "CONFIRMACIÓN DE ASISTENCIA",
     subtitle: "¡En el día más feliz de nuestra vida, no podés faltar!",
-    description: "Te pedimos que confirmes tu asistencia antes del 11/03/2026.\n\nSi fuiste invitado con un acompañante, completar un formulario por persona.",
+    description: "Te pedimos que confirmes tu asistencia antes del 14 de marzo.\n\nSi fuiste invitado con un acompañante, completar un formulario por persona.",
     buttonText: "CONFIRMAR MI ASISTENCIA",
     // Google Forms URL or similar
-    formUrl: "https://forms.gle/tu-formulario-aqui"
+    formUrl: "https://forms.gle/jPzo64tjkcBxx2rp9"
   },
 
   // IMAGES
@@ -117,7 +117,7 @@ export const CONFIG = {
   // COLORS (customize your theme colors)
   colors: {
     primary: "#d4a574", // gold/beige
-    secondary: "#96C4AD", // sage green
+    secondary: "#82b08c", // sage green
     background: "#faf8f5",
     text: "#333333",
     textLight: "#666666"

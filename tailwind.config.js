@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        heading: ['var(--font-satoshi)'],
-        body: ['var(--font-satoshi)'],
+        heading: ['var(--font-abhaya-libre)'],
+        body: ['var(--font-abhaya-libre)'],
       },
       colors: {
         primary: 'var(--color-primary)',
