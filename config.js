@@ -109,7 +109,7 @@ export const CONFIG = {
   // IMAGES
   images: {
     // Main logo (leave empty "" if you don't have one)
-    logo: "/images/gallery/drawing.png",
+    logo: "/images/gallery/eleyfran11.jpeg",
     // Hero background image (optional)
     heroBackground: "",
     // Favicon

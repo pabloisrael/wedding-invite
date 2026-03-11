@@ -5,83 +5,48 @@ export default function EventsSection() {
   return (
     <section className="py-16 md:py-20 textured-bg" id="ceremony">
       <div className="container mx-auto px-5 max-w-6xl">
-        {/* Ceremony and Reception */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-0 md:divide-x divide-gray-300 mb-16">
-          {/* Ceremony */}
-          <div className="text-center px-4 md:px-12">
-            {/* Icon */}
-            <div className="flex justify-center mb-6">
-              <img src="/images/gallery/rings.jpeg" alt="Rings" className="w-16 h-16 md:w-20 md:h-20 object-contain" />
-            </div>
-            
-            <h3 className="text-xs tracking-[0.4em] text-secondary mb-2 uppercase font-semibold text-center w-full">
-              CEREMONIA
-            </h3>
-            
-            <h4 className="font-heading text-xl md:text-3xl font-normal text-secondary mb-1 leading-tight">
-              {CONFIG.ceremony.name}
-            </h4>
-            {CONFIG.ceremony.subtitle && (
-              <p className="text-base text-textLight mb-1 leading-tight">{CONFIG.ceremony.subtitle}</p>
-            )}
+        {/* Unified venue block */}
+        <div className="text-center max-w-xl mx-auto mb-16" id="reception">
+          <h4 className="font-heading text-2xl md:text-4xl font-normal text-secondary mb-1 leading-tight">
+            {CONFIG.ceremony.name}
+          </h4>
+          {CONFIG.ceremony.subtitle && (
+            <p className="text-base text-textLight leading-tight">{CONFIG.ceremony.subtitle}</p>
+          )}
+          <p className="text-sm text-textLight leading-tight">{CONFIG.ceremony.address}, {CONFIG.ceremony.city}</p>
 
-            <p className="text-sm text-textLight mb-0.5 leading-tight">
-              {CONFIG.ceremony.address}
-            </p>
-            <p className="text-sm text-textLight mb-0.5 leading-tight">
-              {CONFIG.ceremony.city}
-            </p>
-            <p className="text-base text-text font-medium mt-2 mb-6 leading-tight">
-              {CONFIG.ceremony.time}
-            </p>
-            
-            <a 
-              href={CONFIG.ceremony.mapsUrl} 
-              className="inline-block py-3 px-8 rounded-full text-xs font-semibold tracking-wider uppercase transition-all duration-300 bg-secondary text-white border-2 border-secondary hover:bg-white hover:text-secondary hover:-translate-y-0.5" 
-              target="_blank" 
-              rel="noopener noreferrer"
-            >
-              Cómo llegar
-            </a>
+          {/* Timeline */}
+          <div className="flex items-center justify-center gap-4 md:gap-8 mt-10 mb-10">
+            {/* Ceremony */}
+            <div className="flex flex-col items-center gap-2">
+              <img src="/images/gallery/rings.jpeg" alt="Rings" className="w-12 h-12 md:w-16 md:h-16 object-contain" />
+              <p className="text-xs tracking-[0.3em] uppercase font-semibold text-secondary">Ceremonia</p>
+              <p className="text-xl md:text-2xl font-medium text-text">{CONFIG.ceremony.time}</p>
+            </div>
+
+            {/* Divider */}
+            <div className="flex items-center gap-2 pb-2">
+              <span className="w-8 md:w-16 h-px bg-gray-300" />
+              <span className="text-gray-300 text-lg">✦</span>
+              <span className="w-8 md:w-16 h-px bg-gray-300" />
+            </div>
+
+            {/* Reception */}
+            <div className="flex flex-col items-center gap-2">
+              <img src="/images/gallery/glasses.jpeg" alt="Glasses" className="w-12 h-12 md:w-16 md:h-16 object-contain" />
+              <p className="text-xs tracking-[0.3em] uppercase font-semibold text-secondary">Fiesta</p>
+              <p className="text-xl md:text-2xl font-medium text-text">{CONFIG.reception.time}</p>
+            </div>
           </div>
 
-          {/* Reception */}
-          <div className="text-center px-4 md:px-12" id="reception">
-            {/* Icon */}
-            <div className="flex justify-center mb-6">
-              <img src="/images/gallery/glasses.jpeg" alt="Glasses" className="w-16 h-16 md:w-20 md:h-20 object-contain" />
-            </div>
-            
-            <h3 className="text-xs tracking-[0.4em] text-secondary mb-2 uppercase font-semibold text-center w-full">
-              FIESTA
-            </h3>
-            
-            <h4 className="font-heading text-xl md:text-3xl font-normal text-secondary mb-1 leading-tight">
-              {CONFIG.reception.name}
-            </h4>
-            {CONFIG.reception.subtitle && (
-              <p className="text-base text-textLight mb-1 leading-tight">{CONFIG.reception.subtitle}</p>
-            )}
-
-            <p className="text-sm text-textLight mb-0.5 leading-tight">
-              {CONFIG.reception.address}
-            </p>
-            <p className="text-sm text-textLight mb-0.5 leading-tight">
-              {CONFIG.reception.city}
-            </p>
-            <p className="text-base text-text font-medium mt-2 mb-6 leading-tight">
-              {CONFIG.reception.time}
-            </p>
-            
-            <a 
-              href={CONFIG.reception.mapsUrl} 
-              className="inline-block py-3 px-8 rounded-full text-xs font-semibold tracking-wider uppercase transition-all duration-300 bg-secondary text-white border-2 border-secondary hover:bg-white hover:text-secondary hover:-translate-y-0.5" 
-              target="_blank" 
-              rel="noopener noreferrer"
-            >
-              Cómo llegar
-            </a>
-          </div>
+          <a
+            href={CONFIG.ceremony.mapsUrl}
+            className="inline-block py-3 px-8 rounded-full text-xs font-semibold tracking-wider uppercase transition-all duration-300 bg-secondary text-white border-2 border-secondary hover:bg-white hover:text-secondary hover:-translate-y-0.5"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Cómo llegar
+          </a>
         </div>
 
         {/* Photo Gallery Carousel */}
