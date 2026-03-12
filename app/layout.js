@@ -11,6 +11,23 @@ const abhayaLibre = Abhaya_Libre({
 export const metadata = {
   title: `Boda de ${CONFIG.couple.name1} & ${CONFIG.couple.name2}`,
   description: `Invitación de boda - ${CONFIG.date.day} de ${CONFIG.date.month} de ${CONFIG.date.year}`,
+  openGraph: {
+    title: `Boda de ${CONFIG.couple.name1} & ${CONFIG.couple.name2}`,
+    description: `Invitación de boda - ${CONFIG.date.day} de ${CONFIG.date.month} de ${CONFIG.date.year}`,
+    url: 'https://el11a.com',
+    images: [
+      {
+        url: 'https://el11a.com/images/gallery/thumbnail.jpeg',
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['https://el11a.com/images/gallery/thumbnail.jpeg'],
+  },
 }
 
 export default function RootLayout({ children }) {
