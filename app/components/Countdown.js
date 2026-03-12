@@ -41,7 +41,7 @@ export default function Countdown() {
     <section className="pt-8 pb-16 md:pt-10 md:pb-20 text-center bg-secondary text-white">
       <div className="container mx-auto px-5 max-w-7xl">
         <div className="mb-10 md:mb-12">
-          <p className="font-heading text-lg md:text-3xl font-light leading-relaxed px-4">
+          <p className="font-heading text-lg md:text-3xl font-light leading-relaxed px-4 whitespace-pre-line md:whitespace-normal">
             {CONFIG.subtitle}
           </p>
         </div>

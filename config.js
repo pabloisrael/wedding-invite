@@ -18,7 +18,7 @@ export const CONFIG = {
 
   // MAIN TITLE
   heroMessage: "¡NOS CASAMOS!",
-  subtitle: "Queremos compartir nuestro gran día con vos",
+  subtitle: "Queremos compartir nuestro gran día\ncon vos",
 
   // CEREMONY
   ceremony: {

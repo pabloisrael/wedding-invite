@@ -30,7 +30,7 @@ export default function InfoSection() {
               onClick={() => toggleSection('dressCode')}
               className="w-full py-6 px-4 flex justify-between items-center text-left hover:bg-white/5 transition-colors"
             >
-              <span className="text-xs md:text-sm tracking-[0.2em] uppercase font-semibold">
+              <span className="text-sm md:text-base tracking-[0.2em] uppercase font-semibold">
                 {CONFIG.dressCode.title}
               </span>
               <span className="text-2xl transform transition-transform duration-300" style={{
@@ -55,7 +55,7 @@ export default function InfoSection() {
               onClick={() => toggleSection('children')}
               className="w-full py-6 px-4 flex justify-between items-center text-left hover:bg-white/5 transition-colors"
             >
-              <span className="text-xs md:text-sm tracking-[0.2em] uppercase font-semibold">
+              <span className="text-sm md:text-base tracking-[0.2em] uppercase font-semibold">
                 {CONFIG.children.title}
               </span>
               <span className="text-2xl transform transition-transform duration-300" style={{
@@ -80,7 +80,7 @@ export default function InfoSection() {
               onClick={() => toggleSection('gift')}
               className="w-full py-6 px-4 flex justify-between items-center text-left hover:bg-white/5 transition-colors"
             >
-              <span className="text-xs md:text-sm tracking-[0.2em] uppercase font-semibold">
+              <span className="text-sm md:text-base tracking-[0.2em] uppercase font-semibold">
                 {CONFIG.gift.title}
               </span>
               <span className="text-2xl transform transition-transform duration-300" style={{

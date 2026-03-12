@@ -31,6 +31,7 @@ export default function RSVP() {
         <p className="font-heading text-2xl md:text-4xl mt-8 md:mt-12 font-normal text-secondary">
           ¡A celebrar!
         </p>
+        <img src="/images/gallery/logo-ef.jpeg" alt="Logo" className="w-32 md:w-48 object-contain mx-auto mt-8 md:mt-12 block" />
       </div>
     </section>
   )

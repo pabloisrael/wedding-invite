@@ -41,7 +41,7 @@ export default function EventsSection() {
 
           <a
             href={CONFIG.ceremony.mapsUrl}
-            className="inline-block py-3 px-8 rounded-full text-xs font-semibold tracking-wider uppercase transition-all duration-300 bg-secondary text-white border-2 border-secondary hover:bg-white hover:text-secondary hover:-translate-y-0.5"
+            className="inline-block py-3 px-8 rounded-full text-sm md:text-base font-semibold tracking-wider uppercase transition-all duration-300 bg-secondary text-white border-2 border-secondary hover:bg-white hover:text-secondary hover:-translate-y-0.5"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -66,7 +66,7 @@ export default function EventsSection() {
             </p>
             <a 
               href={CONFIG.music.formUrl} 
-              className="inline-block py-3 px-8 rounded-full text-xs font-semibold tracking-widest uppercase transition-all duration-300 bg-secondary text-white border-2 border-secondary hover:bg-white hover:text-secondary hover:-translate-y-0.5" 
+              className="inline-block py-3 px-8 rounded-full text-sm md:text-base font-semibold tracking-widest uppercase transition-all duration-300 bg-secondary text-white border-2 border-secondary hover:bg-white hover:text-secondary hover:-translate-y-0.5" 
               target="_blank" 
               rel="noopener noreferrer"
             >
