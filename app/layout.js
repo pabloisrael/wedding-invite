@@ -10,10 +10,10 @@ const abhayaLibre = Abhaya_Libre({
 
 export const metadata = {
   title: `${CONFIG.couple.name1} & ${CONFIG.couple.name2}`,
-  description: `Te invitamos a nuestro casamiento - ${CONFIG.date.day} de ${CONFIG.date.month} de ${CONFIG.date.year}`,
+  description: `${CONFIG.date.day} de ${CONFIG.date.month} de ${CONFIG.date.year}`,
   openGraph: {
     title: `${CONFIG.couple.name1} & ${CONFIG.couple.name2}`,
-    description: `Te invitamos a nuestro casamiento - ${CONFIG.date.day} de ${CONFIG.date.month} de ${CONFIG.date.year}`,
+    description: `${CONFIG.date.day} de ${CONFIG.date.month} de ${CONFIG.date.year}`,
     url: 'https://el11a.com',
     images: [
       {
