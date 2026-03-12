@@ -24,7 +24,7 @@ export default function PhotoCarousel() {
           nextEl: '.swiper-button-next-custom',
         }}
         loop={true}
-        centeredSlides={true}
+        centeredSlides={false}
         breakpoints={{
           640: {
             slidesPerView: 2,

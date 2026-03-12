@@ -41,14 +41,14 @@ export default function Countdown() {
     <section className="pt-8 pb-16 md:pt-10 md:pb-20 text-center bg-secondary text-white">
       <div className="container mx-auto px-5 max-w-7xl">
         <div className="mb-10 md:mb-12">
-          <p className="font-heading text-xl md:text-4xl font-light leading-relaxed px-4">
+          <p className="font-heading text-lg md:text-3xl font-light leading-relaxed px-4">
             {CONFIG.subtitle}
           </p>
         </div>
 
         {/* Countdown */}
         <h2 className="text-sm md:text-base tracking-[0.5em] mb-8 md:mb-10 font-light uppercase">
-          FALTAN…
+          FALTAN
         </h2>
         <div className="flex justify-center gap-4 md:gap-12 flex-wrap">
           <div className="min-w-[65px] md:min-w-[80px]">
